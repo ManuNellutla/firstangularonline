@@ -1,0 +1,6 @@
+<ul>
+          <li *ngFor="let user of users" style="list-style-type:none">
+              {{user.id}} : {{user.login}}
+          </li> 
+      </ul>
+      <ng-template #noData>No Data Available</ng-template>
